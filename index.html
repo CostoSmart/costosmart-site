@@ -1,50 +1,126 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>CostoSmart – App de gestión de costos</title>
-<style>
-body { font-family: 'Poppins', sans-serif; background: #fafafa; color: #333; margin: 0; padding: 0; }
-header { background: #1565c0; color: white; text-align: center; padding: 30px 10px; }
-h1 { margin: 0; font-size: 28px; }
-main { max-width: 900px; margin: 40px auto; padding: 20px; background: white; border-radius: 12px; box-shadow: 0 3px 8px rgba(0,0,0,0.1); }
-a.button { display: inline-block; background: #0d47a1; color: white; padding: 10px 20px; border-radius: 6px; text-decoration: none; margin: 10px; }
-footer { text-align: center; padding: 20px; color: #777; font-size: 14px; }
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="CostoSmart es una aplicación chilena para calcular costos, ganancias y precios de venta de forma rápida, simple y profesional. Desarrollada por FO Software Chile.">
+  <meta name="theme-color" content="#121212">
+  <title>CostoSmart | FO Software Chile</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #0a0a0a;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 26px;
+      color: #00bcd4;
+      letter-spacing: 1px;
+    }
+
+    main {
+      flex: 1;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    main img {
+      width: 120px;
+      height: 120px;
+      border-radius: 24px;
+      margin-bottom: 20px;
+    }
+
+    main h2 {
+      color: #00bcd4;
+      margin-bottom: 10px;
+      font-size: 22px;
+    }
+
+    main p {
+      max-width: 600px;
+      margin: 0 auto 20px;
+      line-height: 1.6;
+      color: #cccccc;
+    }
+
+    .btn {
+      display: inline-block;
+      background-color: #00bcd4;
+      color: #000;
+      text-decoration: none;
+      padding: 12px 25px;
+      border-radius: 25px;
+      font-weight: bold;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #03a9f4;
+    }
+
+    footer {
+      background-color: #0a0a0a;
+      color: #f0f0f0;
+      text-align: center;
+      padding: 30px 10px;
+      font-size: 14px;
+      border-top: 1px solid #222;
+    }
+
+    footer a {
+      color: #00bcd4;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
 </head>
 <body>
-<header>
-  <h1>💰 CostoSmart</h1>
-  <p>Tu asistente para calcular costos, ganancias y precios de venta</p>
-</header>
+  <header>
+    <h1>CostoSmart</h1>
+  </header>
 
-<main>
-  <h2>📱 Sobre la app</h2>
-  <p><strong>CostoSmart</strong> es una herramienta diseñada para emprendedores y pequeños negocios. 
-  Permite calcular fácilmente costos, precios de venta, ganancias totales y porcentajes de utilidad, con un historial automático de tus cálculos.</p>
+  <main>
+    <img src="icon.png" alt="CostoSmart Icono">
+    <h2>Tu asistente de costos y ganancias</h2>
+    <p>
+      Calcula fácilmente el precio de venta, ganancia y porcentaje de utilidad de tus productos.
+      CostoSmart está diseñada para emprendedores, pequeños negocios y cualquier persona que
+      necesite controlar sus precios y costos con precisión.
+    </p>
 
-  <h3>🔧 Funciones principales</h3>
-  <ul>
-    <li>Cálculo automático de precios de venta y ganancia.</li>
-    <li>Historial guardado en tu dispositivo.</li>
-    <li>Modo oscuro personalizable.</li>
-    <li>Opción Premium para eliminar anuncios.</li>
-  </ul>
+    <a href="#" class="btn">Descargar en Google Play</a>
+  </main>
 
-  <div style="text-align:center;">
-    <a href="privacidad.html" class="button">Política de Privacidad</a>
-    <a href="https://www.paypal.me/costosmart" class="button">Donar / Premium</a>
-  </div>
-</main>
-
-<footer>
-  © 2025 CostoSmart – Desarrollado por Franco Ortega<br>
-  Contacto: <a href="mailto:costosmartapp@gmail.com">costosmartapp@gmail.com</a>
-</footer>
+  <footer>
+    <p>
+      © 2025 <strong>FO Software Chile</strong> — Todos los derechos reservados.
+    </p>
+    <p>
+      <a href="privacidad.html">Política de Privacidad</a> |
+      <a href="terminos.html">Términos y Condiciones</a>
+    </p>
+    <p>
+      Contacto: <a href="mailto:costosmartapp@gmail.com">costosmartapp@gmail.com</a>
+    </p>
+  </footer>
 </body>
 </html>
-<p style="text-align:center; font-size:13px; color:#888;">
-Versión 1.0 – Última actualización: noviembre 2025
-</p>
-
